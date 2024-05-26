@@ -1,0 +1,36 @@
+/*
+* underground poetix
+*/
+@font-face {
+	font-family: "Necto";
+	src: url("fonts/Necto-Mono.woff2") format("woff2"),
+       url("fonts/Necto-Mono.woff") format("woff");
+}
+::selection {background: yellow; color: black;}
+a {color:black; text-decoration:none; background-color:#eee;}
+a:hover{color: black; background-color:yellow;}
+a.y {background-color: yellow;}
+body {background-color:black; color:white; font-family:Necto; padding:18px; }
+nav {float:left; margin-bottom: 10px;}
+main {max-width:700px; float:left; margin-left:25px; margin-bottom:25px;}
+.uprise {width:600px;}
+.rise {display: none;}
+ul {margin:0; padding:0;}
+li {list-style-type: none; padding:8px;}
+.ups, .chapbook {float: left; width:30%; padding: 4px; margin-left: 5px; margin-bottom: 8px;}
+.ups > img {width:210px; box-shadow: 0px 0px 3px #eee;}
+.chapbook > img {width:210px; height: 300px; box-shadow: 0px 0px 3px #eee;}
+p.xivinfo, p.info {font-size:13px; width: 210px; text-align: end;}
+.p.info > img {width:200px; box-shadow: 0px 0px 3px #eee;}
+p.info, p.xivinfo > a {float:right;}
+.instagram {margin:33%; font-size:27px;}
+h3 {margin-bottom: 1px;}
+table {width:100%; border-spacing: 0; white-space:nowrap;}
+th {width:88%; text-align: left; }
+td { border: 1px dashed #eee; border-bottom: none; border-right: none; padding: 6px;}
+tr td:last-child {border-right: 1px dashed #eee;}
+tr:last-child td {border-bottom: 1px dashed #eee;}
+
+@media(max-width: 800px) {main{margin:auto; float: inherit;} .uprise {display: none;} .rise {display: inherit; width:331px; padding:10px;} .ups, .chapbook {width:100%;} 
+.ups > img {max-width: 100%; width: auto; height: auto;} .chapbook > img  {max-width: 80%; width: auto; height: auto;} p.xivinfo, p.info {width: 100%; text-align: inherit; font-size:15px;}
+.instagram {margin:auto;}
